@@ -1,7 +1,4 @@
-.screen-header{
-    display:flex;
+.screen-header {
+    display: flex;
     justify-content: space-between;
-
-
-    
 }
