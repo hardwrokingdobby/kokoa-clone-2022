@@ -12,7 +12,7 @@
 .status-bar__column:first-child span {
     margin-right:5px;
 }
-..status-bar__column:nth-child(2){
+.status-bar__column:nth-child(2){
     display: flex;
     justify-content: center;
 }
