@@ -25,6 +25,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    animation:fadeIn 0.3s linear;
 }
 
 .chat__timestamp {
@@ -39,33 +40,35 @@
 @keyframes messaging-own {
     0% {
         opacity: 0;
-        transform: none;
+        transform: translateX(-30px);
     }
     50% {
         opacity: 0;
-        transform: none;
+        transform: translateX(-30px);
     }
     
     100% {
         opacity: 1;
-        transform: translateX(-30px);
+        transform: ;
     }
 }
 
 @keyframes messaging {
     0% {
         opacity: 0;
-        transform: 0;
+        transform: translateX(30px);
     }
     50%{opacity: 0;
-        transform: translateX(15px);
+        transform: translateX(30px);
 
     }
     100% {
         opacity: 1;
-        transform: translateX(30px);
+        transform: none;
     }
 }
+
+
 
 .message-row {
     width: 100%;
