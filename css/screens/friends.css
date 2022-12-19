@@ -5,10 +5,12 @@
     padding:15px 0;
     font-size: 18px;
     margin-bottom: 15px;
-    margin-top: -15px
+    margin-top: -15px;
+    box-shadow:  0 0 20px 0 rgba(0,0,0,0.2);
 }
 #friends-display-link i {
     color:rgba(0,0,0,0.3);
+ 
 }
 
 .friends-screen__chanel {
@@ -33,6 +35,8 @@ to {
     visibility: hidden;
 }
 }
+
+
     
 #splash-screen {
     background-color: var(--yellow);
@@ -41,9 +45,9 @@ to {
     width: 100vw;
     top:0;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 102px;
-    animation: hideSplashScreen 0.4s ease-in-out forwards;
+    justify-content: right;
+    animation: hideSplashScreen 1s ease-in-out forwards;
     animation-delay: 2s;
+    background: linear-gradient(#9fd9ff,#ccb3ff,#ffb7ed,#ffeeba);
 }
+

@@ -8,6 +8,7 @@
 .welcome-header__title{
     margin-bottom:20px;
     font-size: 25px;
+    font-weight: 600;
 }
 .welcome-header__text{
     width:60%;
@@ -37,10 +38,11 @@
     border-color:var(--yellow);
 }
 #login-form input[type="submit"] {
-    background-color: var(--yellow);
+    background-color: rgb(212, 185, 255);
     cursor:pointer;
-    padding:20px 0px;
-    border-radius: 5px;
+    padding:10px 0px;
+    border-radius: 40px;
+    
 }
 #login-form a {
     text-align: center;
@@ -48,3 +50,24 @@
     color:inherit;
     font-size: 13px;
 }
+
+@keyframes btslogmoving {
+    0%{transform: translateY(0)
+
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%[
+        transform: none;
+    ]
+}
+
+.welcome-header__imglogo {
+    width: 100px;;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    animation: btslogmoving 2s ease-in-out infinite;
+}
+

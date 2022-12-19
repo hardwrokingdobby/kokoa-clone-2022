@@ -77,6 +77,7 @@
 
 .open-post__photo {
 position: relative;
+object-fit:scale-down;
 }
 .open-post__photo img{
     width: 120px;
