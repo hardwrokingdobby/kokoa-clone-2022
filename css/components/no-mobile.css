@@ -6,6 +6,7 @@
     width: 100vw;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     top:0;
     font-size: 32px;
@@ -17,4 +18,22 @@
     #no-mobile {
         display: none;
     }
+}
+@keyframes btslogmoving {
+    0%{transform: translateY(0)
+
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%[
+        transform: none;
+    ]
+}
+
+.no-mobile__img {
+    width: 200px;
+    margin-bottom: 50px;
+    transition: all 0.5s ease-in-out;
+    animation: btslogmoving 2s ease-in-out infinite;
 }

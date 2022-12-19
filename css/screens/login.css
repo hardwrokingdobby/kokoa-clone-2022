@@ -53,12 +53,12 @@
     font-size: 13px;
 }
 
-@keyframes btslogmoving {
-    0%{transform: translateY(0)
+@keyframes btsspin {
+    0%{transform: rotate(0)
 
     }
     50%{
-        transform: translateY(10px);
+        transform: rotate(2000deg);
     }
     100%[
         transform: none;
@@ -70,6 +70,6 @@
     display: flex;
     justify-content: center;
     margin-bottom: 60px;
-    animation: btslogmoving 2s ease-in-out infinite;
+    animation: btsspin 6s ease-in-out infinite;
 }
 
