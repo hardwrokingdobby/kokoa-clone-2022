@@ -43,7 +43,7 @@
 @keyframes messaging {
     from {
         opacity: 0;
-        transform: translateX(-30px);
+        transform: translateY(-30px);
     }
     to {
         opacity: 1;
@@ -54,7 +54,7 @@
 @keyframes messaging-own {
     from {
         opacity: 0;
-        transform: translateX(30px);
+        transform: translateY(30px);
     }
     to {
         opacity: 1;
