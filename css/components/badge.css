@@ -10,3 +10,9 @@
     color: white;
     font-weight: 600;
 }
+
+.settings__setting-column .badge {
+    position: absolute;
+    left:115px;
+    bottom:7px
+}

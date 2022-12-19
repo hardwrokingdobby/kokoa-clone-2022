@@ -53,23 +53,24 @@
     font-size: 13px;
 }
 
-@keyframes btsspin {
-    0%{transform: rotate(0)
-
-    }
-    50%{
-        transform: rotate(2000deg);
-    }
-    100%[
-        transform: none;
-    ]
-}
-
 .welcome-header__imglogo {
     width: 100px;;
     display: flex;
     justify-content: center;
     margin-bottom: 60px;
-    animation: btsspin 6s ease-in-out infinite;
+    animation: logom 3s ease-in-out infinite;
+
 }
 
+
+@keyframes logom {
+    0%{transform: rotate(-0.15turn);
+
+    }
+    50%{transform: rotate(0.15turn);
+
+    }
+    100%{
+    transform: rotate(-0.15turn);
+    }
+}

@@ -34,6 +34,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .open-post__title {
@@ -72,7 +73,7 @@
 }
 
 .open-post__member-status {
-    color:#ffb0e0;
+    color: var(--yellow);
 }
 
 .open-post__photo {
@@ -124,4 +125,54 @@ transform: none;
 
 .icon-row__icon span {
     font-size: 14px;
+    text-align: center;
 }
+
+
+
+
+
+
+
+
+.openchat-component{
+    height: 90px;
+}
+ .openchat-component,
+ .openchat-component__column:first-child {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ .openchat-component__avatar {
+     width:70px;
+     height: 70px;
+     border-radius: 30px;
+     margin-right: 10px;
+     object-fit: cover;
+ }
+ .openchat-component__title {
+     font-weight: 600;
+     font-size: 22px;
+ }
+ .openchat-component__subtitle {
+     margin-top: 5px;
+     font-size: 17px;
+     color: rgba(0,0,0,0.5)
+ }
+ 
+ .openchat-component__avatar--sm {
+     width:60px;
+     height:60px;
+     border-radius: 25px;
+ }
+ 
+ .openchat-component__title--not-bold {
+     font-weight: 400;
+ }
+ 
+ .openchat-component {
+     box-shadow: none;
+     border-radius: none;
+     color: none;
+ }

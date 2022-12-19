@@ -17,3 +17,7 @@
     opacity: 0.5;
 }
 
+.settings__setting-column{
+    position: relative;
+}
+
