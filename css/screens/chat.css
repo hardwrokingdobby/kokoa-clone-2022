@@ -71,12 +71,12 @@
     width: 100%;
     display: flex;
     margin-bottom: 25px;
-    animation: messaging 1s ease-in-out;
+    animation: messaging 2s ease-in-out;
 }
 
 .message-row--own {
     justify-content: flex-end;
-    animation: messaging-own 1s ease-in-out;
+    animation: messaging-own 2s ease-in-out;
 }
 
 .message-row img {
@@ -214,6 +214,6 @@ transform: translateX(-13%) translateY(-80px);
 .message__bubble img {
     width:200px;
     height: 200px;
+    object-fit: cover;
 }
-
 

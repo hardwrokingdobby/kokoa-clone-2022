@@ -48,7 +48,7 @@ margin-top:35px;
     align-items: center;
 }
 
-.more-suggestions__icon__imgage {
+.more-suggestions__icon__imgage img {
     width:60px;
     height: 60px;
     background-color: var(--yellow);
@@ -59,7 +59,8 @@ margin-top:35px;
     margin-bottom: 10px;
 }
 
-.more-suggestions__icon__imgage i {
-    font-size: 32px;
-    color: white;
+.more-suggestions__icon__text{
+    font-size: 15px;
 }
+
+

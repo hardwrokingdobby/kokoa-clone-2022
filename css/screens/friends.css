@@ -45,9 +45,26 @@ to {
     width: 100vw;
     top:0;
     display: flex;
-    justify-content: right;
+    justify-content: center;
+    align-items: center;
     animation: hideSplashScreen 1s ease-in-out forwards;
     animation-delay: 2s;
     background: linear-gradient(#9fd9ff,#ccb3ff,#ffb7ed,#ffeeba);
 }
 
+@keyframes btsspin {
+    0%{transform: rotate(0)
+
+    }
+    50%{
+        transform: rotate(2000deg);
+    }
+    100%{
+        transform: none;
+}
+}
+.splash-screen__img{
+    width: 40%;
+    height: 40%;
+animation: btsspin 6s ease-in-out infinite;
+}

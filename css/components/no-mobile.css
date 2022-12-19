@@ -24,11 +24,11 @@
 
     }
     50%{
-        transform: translateY(10px);
+        transform: translateY(20px);
     }
-    100%[
+    100%{
         transform: none;
-    ]
+}
 }
 
 .no-mobile__img {
