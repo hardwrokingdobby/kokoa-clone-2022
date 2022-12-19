@@ -1,5 +1,41 @@
 .screen-header {
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
+    padding:var(--horizontal-space);
+    margin-bottom: 15px;
+}
+.screen-header__title {
+    font-size: 28px;
+    font-weight: 600;
+}
+.screen-header__icons span {
+    margin-left: 25px;
+}
+.main-screen {
+    padding: 0px var(--horizontal-space);
+}
+
+.screen-header__icons span {
+    position: relative;
+}
+
+.screen-header__icons__dot {
+    position: absolute;
+    bottom:22px;
+    left: 68px;
+}
+
+@keyframes rotateCog {
+    from{
+transform: none;
+    }
+    to{
+transform:rotateZ(360deg)
+    }
+}
+
+.screen-header__icons .fa-gear:hover {
+animation: rotateCog 1s linear infinite;
+display: inline-block;
 }
